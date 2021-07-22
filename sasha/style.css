@@ -7,11 +7,11 @@ body {
   font-family: "Courier New";
 }
 address {
-  background-color: #a5a3c9;
+  background-color: #cbcaed;
   color: black;
 }
 h4 {
-  background-color: #a5a3c9;
+  background-color: #cbcaed;
 }
 h1 {
   font-family: "Zen Loop";
@@ -22,7 +22,7 @@ li {
   color: black;
 }
 span {
-  color: #706aeb;
+  color: #4840d6;
 }
 /* Call the class="customlink" */
 /* Classes allow you to call specific codes/elements */
