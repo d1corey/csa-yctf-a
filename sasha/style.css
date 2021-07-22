@@ -16,6 +16,8 @@ h4 {
 h1 {
   font-family: "Zen Loop";
   font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
 }
 /* You can combine 2+ classes/tags with commas -> .classname/tag1, .classname/tag2 */
 p,

@@ -32,14 +32,33 @@
       font-family: cursive;
     }
     div {
-      font-family
+      background-color: pink
     }
+      /* Call the class="customlink"       */
+      /* When calling class use the period character -> .classname      */
+      .customlink {
+        color: #8700fb;
+        text-transform: uppercase;
+        text-decoration: none; /* no underline */
+ }
+      /*  
+      why do we use class names?
+      how do we create a class name
+      */
     .colorUppercaseNounderline, .customlink {
       color: #8700fb;
       text-transform: uppercase;
       text-decoration: none; /* no underline */
     }
-  </style> 
+    .colorUppercaseNounderline,
+      .customlink {
+        color: #8700fb;
+        text-transform: uppercase;
+        text-decoration: none; /* no underline */
+      }
+        </style>
+    <!--   Global External CSS   -->
+    <link href="style.css" rel="stylesheet" />
   <!--  Add External CSS -->
     <link href="style.css" rel="stylesheet">
     
@@ -70,7 +89,11 @@
       Skills
     </h2>
     <p>
-      Add your Skills
+       <!-- Add Lorem Ipsum 
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Go to: https://www.lipsum.com/   
+-->
     </p>
     <h2>
       Experience
@@ -88,8 +111,17 @@
         <li>Two</li>
         <li>three</li>
       <div>
-        </div>
-      </ul>
+        <div>
+      <h3>
+        <span style="color:red">Company Name 2, Location - <em>Job Title2</em></h3>
+      <p>
+        Month 20xx - Month 20xx
+      </p>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>three</li>
+      </div>
     </div>
   </body>
 </html>
