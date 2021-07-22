@@ -13,12 +13,21 @@
       rel="stylesheet"
     />
     <style>
+      /* This is a CSS comment; It's in ab internal style code */
       body {
         background-color: lightgrey;
         font-family: "Courier New";
       }
+      address {
+        background-color: lightblue;
+        color: darkblue;
+      }
       h4 {
         background-color: lightblue;
+      }
+      a {
+        color: darkblue;
+        text-transform: uppercase;
       }
       h1 {
         font-family: "Zen Loop";
@@ -30,7 +39,11 @@
         color: black;
       }
       span {
-        color: red;
+        color: blue;
+      }
+/* Call the class="customlink"*/
+      .customlink { 
+        
       }
     </style>
   </head>
@@ -40,10 +53,8 @@
       City, State 10027
     </address>
     <h4>
-      <a href="tel:+1-123-456-7890" style="color:red;">(123) 456-7890</a><br />
-      <a
-        href="mailto:no_reply@example.com"
-        style="color:red;text-transform:uppercase;"
+      <a href="tel:+1-123-456-7890">(123) 456-7890</a><br />
+      <a href="mailto:no_reply@example.com" class="customlink"
         >no_reply@example.com</a
       >
     </h4>
