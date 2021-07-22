@@ -15,6 +15,7 @@ h4 {
 }
 h1 {
   font-family: "Zen Loop";
+  font-weight: 700;
 }
 /* You can combine 2+ classes/tags with commas -> .classname/tag1, .classname/tag2 */
 p,
@@ -23,6 +24,12 @@ li {
 }
 span {
   color: #4840d6;
+  font-size: 18px;
+  font-weight: 800;
+}
+i {
+  font-size: 18px;
+  font-weight: 800;
 }
 /* Call the class="customlink" */
 /* Classes allow you to call specific codes/elements */
