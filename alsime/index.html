@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Controlling the web browser     -->
@@ -12,24 +12,73 @@
       href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap"
       rel="stylesheet"
     />
+    <style>
+/*  CSS comment style      */
+/*   This is a CSS comment     */
+      body {
+        font-family: fantasy; /* google fonts */
+        background-color: white !important;
+      }
+      address {
+        font-style: normal;
+        color: green;
+      }
+      a {
+        color:red;
+      }
+      h1 {
+        font-family: 'Zen Tokyo Zoo', cursive; 
+        background-color: #eee;
+      }
+      h2, h3, h4, h5, h6 {
+        font-family: cursive;
+      }
+      div {
+        background-color: pink;
+      }
+/* Call the class="customlink"       */
+/* When calling class use the period character -> .classname      */
+      .customlink {
+        color: #8700fb;
+        text-transform: uppercase;
+        text-decoration: none; /* no underline */
+      }
+/*  
+      why do we use class names?
+      how do we create a class name
+      */
+      .colorUppercaseNounderline {
+        color: #8700fb;
+        text-transform: uppercase;
+        text-decoration: none; /* no underline */        
+      }
+      
+      .colorUppercaseNounderline, .customlink {
+          color: #8700fb;
+          text-transform: uppercase;
+          text-decoration: none; /* no underline */        
+      }
+    </style>
+<!--  Add External CSS from your project folder  -->
+    <link href="style.css" rel="stylesheet" />
 
     <title>Resume Template</title>
   </head>
   <body style="font-family: fantasy; background-color: beige;">
-    <address
-      style="font-style: normal;color: green;">
+    <address style="">
       123 W125th Street<br />
       City, State 10027
     </address>
     <p>
-      <a href="tel:+1-646-755-2718" style="color:red;">(123) 456-7890</a><br />
+      <a href="tel:+1-123-456-7890" style="">(123) 456-7890</a><br />
       <a
         href="mailto:no_reply@example.com"
-        style="color: #8700fb;text-transform: uppercase;text-decoration: none;"
+        style=""
+         class="customlink"
         >no_reply@example.com</a
       >
     </p>
-    <h1 style="font-family: 'Zen Tokyo Zoo', cursive; background-color: #eee">
+    <h1 style="" class="colorUppercaseNounderline">
       Your Name
     </h1>
     <hr />
@@ -38,7 +87,7 @@
       alt="Resume text banner"
       width="100%"
     />
-    <h2 style="font-family: 'Brush Script MT';">
+    <h2 style="">
       Skills
     </h2>
     <!-- Add Lorem Ipsum 
@@ -57,7 +106,7 @@ Go to: https://www.lipsum.com/
       Experience
     </h2>
 
-    <div style="background-color: pink;">
+    <div style="">
       <h3>
         <span style="color:red;">Company Name, Location</span> -
         <i>Job Title</i>
@@ -89,7 +138,8 @@ Go to: https://www.lipsum.com/
       <h3>
         School Name, Location - Degree
       </h3>
-      <p>
+      <p>0`-+
+        +-+
         Month 20xx - Month 20xx, Location
       </p>
       <p>
