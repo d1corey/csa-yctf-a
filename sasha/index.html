@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Controlling the web browser     -->
+    <!-- Controlling the web browser -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,7 +13,8 @@
       rel="stylesheet"
     />
     <style>
-      /* This is a CSS comment; It's in ab internal style code */
+      /* This is a CSS comment; It's in an internal style code */
+      /* Note: You can use !Important to give somethihing priority */
       body {
         background-color: #d9d9d9;
         font-family: "Courier New";
@@ -28,9 +29,8 @@
       h1 {
         font-family: "Zen Loop";
       }
-      p {
-        color: black;
-      }
+      /* You can combine 2+ classes/tags with commas -> .classname/tag1, .classname/tag2 */
+      p,
       li {
         color: black;
       }
@@ -38,8 +38,9 @@
         color: #706aeb;
       }
       /* Call the class="customlink" */
-      /* When calling class use the period charachter -> .classname */
-      .customlink {
+      /* Classes allow you to call specific codes/elements */
+      /* When calling a class use the period charachter -> .classname */
+      .email {
         color: #4840d6;
         text-transform: uppercase;
         text-decoration: all;
@@ -47,7 +48,6 @@
       .phone {
         color: #4840d6;
       }
-      /* You can combine two classes by using a comma -> .classname1, .classname2 */
     </style>
   </head>
   <body>
@@ -57,11 +57,12 @@
     </address>
     <h4>
       <a href="tel:+1-123-456-7890" class="phone">(123) 456-7890</a><br />
-      <a href="mailto:no_reply@example.com" class="customlink"
+      <a href="mailto:no_reply@example.com" class="email"
         >no_reply@example.com</a
       >
     </h4>
     <h1>
+      <!-- The marquee tag makes the text scroll across the page- It's fun! -->
       <marquee>Your Name</marquee>
     </h1>
     <hr />
