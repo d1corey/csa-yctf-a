@@ -15,19 +15,15 @@
     <style>
       /* This is a CSS comment; It's in ab internal style code */
       body {
-        background-color: lightgrey;
+        background-color: #d9d9d9;
         font-family: "Courier New";
       }
       address {
-        background-color: lightblue;
-        color: darkblue;
+        background-color: #a5a3c9;
+        color: black;
       }
       h4 {
-        background-color: lightblue;
-      }
-      a {
-        color: darkblue;
-        text-transform: uppercase;
+        background-color: #a5a3c9;
       }
       h1 {
         font-family: "Zen Loop";
@@ -39,11 +35,17 @@
         color: black;
       }
       span {
-        color: blue;
+        color: #706aeb;
       }
-/* Call the class="customlink"*/
-      .customlink { 
-        
+      /* Call the class="customlink" */
+      /* When calling class use the period charachter -> .classname */
+      .customlink {
+        color: #4840d6;
+        text-transform: uppercase;
+        text-decoration: all;
+      }
+      .phone {
+        color: #4840d6;
       }
     </style>
   </head>
@@ -53,7 +55,7 @@
       City, State 10027
     </address>
     <h4>
-      <a href="tel:+1-123-456-7890">(123) 456-7890</a><br />
+      <a href="tel:+1-123-456-7890" class="phone">(123) 456-7890</a><br />
       <a href="mailto:no_reply@example.com" class="customlink"
         >no_reply@example.com</a
       >
