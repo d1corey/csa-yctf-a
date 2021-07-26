@@ -1,16 +1,24 @@
 /* External CSS */
 body{
-  background-color: grey
-style:font-family="Fantasy"
+  background-color: grey;
+style:font-family="Fantasy";
 }
 h1{
  font-family: "Zen Tokyo Zoo", cursive;
-  color:green
+  color:green;
     h2{
-      font-family: "Brush ,.."
+      font-family: "Brush Script M7";
+        color:blue;
   }
+
+h2{
+  font-family: Lucia Console, italic;
+  color:brown;
 }
-p{
+  p{
   font family: "Georgia", bold;
-  color:pink
+  color:pink;
+}
+a{
+  font-family:"Verdana";
 }
