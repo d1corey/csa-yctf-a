@@ -1,4 +1,16 @@
 /* External CSS */
 body{
-  background-color: lightblue;
+  background-color: grey
+style:font-family="Fantasy"
+}
+h1{
+ font-family: "Zen Tokyo Zoo", cursive;
+  color:green
+    h2{
+      font-family: "Brush ,.."
+  }
+}
+p{
+  font family: "Georgia", bold;
+  color:pink
 }
