@@ -1,5 +1,17 @@
 /* External CSS */
 /* Global Comment */
 body {
-  background-color: lightblue;
-}
+   background-color: powderblue;
+    }
+h2 {
+  color: purple;
+     }
+h3 {
+  color: royalblue;
+     }
+p {
+  color: brown;
+    }
+ul {
+  color: brown;
+    }
