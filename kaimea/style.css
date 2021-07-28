@@ -4,5 +4,6 @@ body {
 }
 
 .doggyInTheWindow {
-  background-color
+  background-color: transparent;
+  background-image: url ("https://picsum.photos/id/237/800")
 }

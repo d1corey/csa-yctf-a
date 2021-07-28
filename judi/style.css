@@ -79,8 +79,14 @@ li {
 }
 
 .doggyInTheWindow {
-  background-color: transparent;
-  background-image: url("https://picsum.photos/id/237/800");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(https://picsum.photos/id/237/800);
+    background-size: cover;
+    margin: 10px;
+    padding: 30px;
+    background-position: bottom right;
+    color: white;
 }
 
 
