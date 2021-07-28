@@ -1,4 +1,4 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Controlling the web browser     -->
@@ -13,66 +13,21 @@
       rel="stylesheet"
     />
     <style>
-      /*  CSS comment style      */
-      /*   This is a CSS comment     */
-      body {
-        font-family: fantasy; /* google fonts */
-        background-color: white !important;
-      }
-      address {
-        font-style: normal;
-        color: green;
-      }
-      a {
-        color: red;
-      }
-      h1 {
-        font-family: "Zen Tokyo Zoo", cursive;
-        background-color: #eee;
-      }
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: cursive;
-      }
-      div {
-        background-color: pink;
-      }
-      /* Call the class="customlink"       */
-      /* When calling class use the period character -> .classname      */
-      .customlink {
-        color: #8700fb;
-        text-transform: uppercase;
-        text-decoration: none; /* no underline */
-      }
-      /*  
-      why do we use class names?
-      how do we create a class name
-      */
-      .colorUppercaseNounderline {
-        color: #8700fb;
-        text-transform: uppercase;
-        text-decoration: none; /* no underline */
-      }
 
-      .colorUppercaseNounderline,
-      .customlink {
-        color: #8700fb;
-        text-transform: uppercase;
-        text-decoration: none; /* no underline */
-      }
     </style>
-    <!--  Add External CSS from your project folder  -->
-    <link href="/style.css" rel="stylesheet" />
+    <!--   Global External CSS   -->
+    <link href="judi/style.css" rel="stylesheet" />
+
+    <!--  Add Your External CSS from your project folder  by adding yourname/style.css -->
+<!--     <link href="yourname/style.css" rel="stylesheet" /> -->
+    <link href="style.css" rel="stylesheet" />
 
     <title>Resume Template</title>
   </head>
-  <body style="font-family: fantasy; background-color: beige;">
-    <address style="">
-      123 W140th Street<br />
-      City, State 10030
+  <body style="font-family: fantasy;">
+    <address style="" class="addColorPink">
+      123 W125th Street<br />
+      City, State 10027
     </address>
     <p>
       <a href="tel:+1-123-456-7890" style="">(123) 456-7890</a><br />
@@ -81,14 +36,22 @@
       >
     </p>
     <h1 style="" class="colorUppercaseNounderline">
-      Alsime Gaye
+      Your Name
     </h1>
     <hr />
     <img
       src="https://cdn.glitch.com/b7dfdf06-1c9f-4b50-b03d-f262e7b7cee0%2Fresume.jpg?v=1626362153692"
       alt="Resume text banner"
       width="100%"
+         class="displaynone"
     />
+    <div>
+      <h1>
+        Judi's Resume
+      </h1>
+    </div>
+    
+    
     <h2 style="">
       Skills
     </h2>
@@ -156,3 +119,4 @@ Go to: https://www.lipsum.com/
     </ul>
   </body>
 </html>
+ 
