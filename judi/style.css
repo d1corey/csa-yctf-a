@@ -78,6 +78,13 @@ li {
   text-decoration: none; /* no underline */
 }
 
+.doggyInTheWindow {
+  background-color: transparent;
+  background-image: url("https://picsum.photos/id/237/800");
+}
+
+
+
 /* CSS3 Media 
 https://www.w3schools.com/css/css3_mediaqueries.asp
 */

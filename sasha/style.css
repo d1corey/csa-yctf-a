@@ -53,3 +53,4 @@ https://www.w3schools.com/css/css3_mediaqueries.asp
   }
 }
 /* display-none vs. visibility-hidden: display completely removes the ~thing~ from the product, while visibility removes it but keeps the space it occupies (keeps it empty) */
+/* You can set the background color to "transparent" so it will sit on whatever is "beneath" it. In the same tag/class/etc, you can do "background-image: url("[image url]")"; */
