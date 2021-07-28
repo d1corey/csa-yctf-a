@@ -67,7 +67,8 @@ https://www.w3schools.com/css/css3_mediaqueries.asp
     background-repeat: no-repeat;
     background-image: url(https://picsum.photos/id/237/800);
     background-size: cover;
-  
+    margin: 10px
     background-position: center;
+    color: white;
 }
 */
