@@ -30,3 +30,11 @@ p {
 ul {
   color: brown;
     }
+/* CSS3 Media 
+https://www.w3schools.com/css/css3_mediaqueries.asp
+*/
+@media screen and (max-width: 480px) {
+  body {
+    background-color: powderblue;
+  }
+}
