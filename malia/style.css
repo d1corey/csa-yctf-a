@@ -1,5 +1,11 @@
 /* External Css */
 /* Global Styling */
-<!DOCTYPE html>
-<html>
-<head>
+body {
+  background-color: #d5a2f5;
+}
+p,
+li,
+address,
+h1 {
+  color: black;
+}
