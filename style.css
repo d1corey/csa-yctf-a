@@ -2,12 +2,8 @@
 /* Global styling  */
 body {
   background-color: lightblue;
-}
-/*  CSS comment style      */
-/*   This is a CSS comment     */
-body {
   font-family: fantasy; /* google fonts */
-/*   background-color: white; */
+  color: #444444; /short hand is #444 */
 }
 address {
   font-style: normal;
@@ -42,7 +38,14 @@ li {
   color: pink;
 } */
 
-.add
+.displaynone {
+  display: none;
+}
+
+.addBorder {
+  border: 10px solid red;
+}
+
 /* class="addColorPink"is .addColorPink */
 .addColorPink {
   color: pink;
@@ -72,4 +75,13 @@ li {
   color: #8700fb;
   text-transform: uppercase;
   text-decoration: none; /* no underline */
+}
+
+/* CSS3 Media 
+https://www.w3schools.com/css/css3_mediaqueries.asp
+*/
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
 }
