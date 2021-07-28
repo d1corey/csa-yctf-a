@@ -30,13 +30,24 @@ h6 {
 div {
   background-color: pink;
 }
-h1 {
+/* 
+address {
   color: pink;
+  backgroud-color: yellow;
 }
 p {
   color: pink;
 }
 li {
+  color: pink;
+} */
+
+.add
+/* class="addColorPink"is .addColorPink */
+.addColorPink {
+  color: pink;
+}
+.add-color-pink {
   color: pink;
 }
 /* Call the class="customlink"       */
