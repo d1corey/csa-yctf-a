@@ -44,8 +44,12 @@ i {
 .phone {
   color: #4840d6;
 }
-@media screen (max-width: 500px) {
+/* CSS3 Media 
+https://www.w3schools.com/css/css3_mediaqueries.asp
+*/
+@media screen and (max-width: 200px) {
   body {
-    background-color: red;
+    background-color: darkgray;
   }
 }
+/* display-none vs. visibility-hidden: display completely removes the ~thing~ from the product, while visibility removes it but keeps the space it occupies (keeps it empty) */
