@@ -3,3 +3,62 @@
 body {
   background-color: lightblue;
 }
+/*  CSS comment style      */
+/*   This is a CSS comment     */
+body {
+  font-family: fantasy; /* google fonts */
+/*   background-color: white; */
+}
+address {
+  font-style: normal;
+  color: green;
+}
+a {
+  color: red;
+}
+h1 {
+  font-family: "Zen Tokyo Zoo", cursive;
+  background-color: #eee;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: cursive;
+}
+div {
+  background-color: pink;
+}
+h1 {
+  color: pink;
+}
+p {
+  color: pink;
+}
+li {
+  color: pink;
+}
+/* Call the class="customlink"       */
+/* When calling class use the period character -> .classname      */
+.customlink {
+  color: #8700fb;
+  text-transform: uppercase;
+  text-decoration: none; /* no underline */
+}
+/*  
+      why do we use class names?
+      how do we create a class name
+      */
+.colorUppercaseNounderline {
+  color: #8700fb;
+  text-transform: uppercase;
+  text-decoration: none; /* no underline */
+}
+
+.colorUppercaseNounderline,
+.customlink {
+  color: #8700fb;
+  text-transform: uppercase;
+  text-decoration: none; /* no underline */
+}
